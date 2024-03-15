@@ -20,39 +20,45 @@ a{
    left: 4vi;
 }
 .titulo{
+    display: flex;
     position: relative;
     font-size: 3vi;
     top: 5vi;
 }
 .todos{
-    position: relative;
-    font-size: 1.5vi;
-    top: 8vi;
-    left: 2.5vi;
-    color: rgb(3, 114, 79);
-}
-.abrigos{
+    display: flex;
     position: relative;
     font-size: 1.5vi;
     top: 10vi;
     left: 2.5vi;
     color: rgb(3, 114, 79);
 }
-.camisetas{
+.abrigos{
+    display: flex;
     position: relative;
     font-size: 1.5vi;
     top: 12vi;
     left: 2.5vi;
     color: rgb(3, 114, 79);
 }
-.pantalones{
+.camisetas{
+    display: flex;
     position: relative;
     font-size: 1.5vi;
     top: 14vi;
     left: 2.5vi;
     color: rgb(3, 114, 79);
 }
+.pantalones{
+    display: flex;
+    position: relative;
+    font-size: 1.5vi;
+    top: 16vi;
+    left: 2.5vi;
+    color: rgb(3, 114, 79);
+}
 .carritos{
+    display: flex;
     position: relative;
     font-size: 1.5vi;
     top: 25vi;
@@ -60,6 +66,7 @@ a{
     color: rgb(3, 114, 79);
 }
 .camper{
+    display: flex;
     position: relative;
     font-size: 1.5vi;
     top: 35vi;
@@ -69,11 +76,173 @@ a{
 .productos-todos{
     display: flex;
     position: relative;
-    border: 0.2vi solid rgb(3, 114, 79);
-    border-radius: 2vi;
-    top: 4vi;
+    border: 0.3vi solid rgb(3, 114, 79);
+    border-radius: 3vi;
+    top: 2vi;
     left: 10vi;
     width: 68vi;
-    height: 48vi;
-
+    height: 52vi;
+    overflow:scroll;
+}
+.titu{
+    display: flex;
+    position: relative;
+    font-size: 1.5vi;
+    top: 1vi;
+    width: 50vi;
+    height: 5vi;
+    left: 2.5vi;
+    color: rgb(3, 114, 79);
+}
+.a1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border:0.2vi solid rgb(3, 114, 79);
+    border-radius: 1vi;
+    top: 6vi;
+    left: 0vi;
+    width: 30vi;
+    height: 21vi;
+}
+.producto{
+    display: flex;
+    position: relative;
+    border-radius: 1vi;
+    width: 14vi;
+    height: 15vi;
+    left: 1vi;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 16vi;
+    height: 6vi;
+    border:0.2vi solid rgb(3, 114, 79);
+    border-radius: 1vi;
+}
+.nombre{
+    display: flex;
+    position: relative;
+    font-size: 1vi;
+}
+.precio{
+    display: flex;
+    position: relative;
+    top: 1vi;
+    font-size: 1.2vi;
+}
+.agregar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vi;
+    color: white;
+    background-color:rgb(3, 114, 79);
+    width: 5vi;
+    height: 2vi;
+    bottom: 1vi;
+    left: 10vi;
+    border-radius: 0.3vi;
+}
+.a2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border:0.2vi solid rgb(3, 114, 79);
+    border-radius: 1vi;
+    top: 6vi;
+    left: 3vi;
+    width: 30vi;
+    height: 21vi;
+}
+.a3{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border:0.2vi solid rgb(3, 114, 79);
+    border-radius: 1vi;
+    top: 6vi;
+    left: 6vi;
+    width: 30vi;
+    height: 21vi;
+}
+.a4{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border:0.2vi solid rgb(3, 114, 79);
+    border-radius: 1vi;
+    top: 28vi;
+    left: -49vi;
+    width: 30vi;
+    height: 21vi;
+}
+.a5{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border:0.2vi solid rgb(3, 114, 79);
+    border-radius: 1vi;
+    top: 28vi;
+    left: -46vi;
+    width: 30vi;
+    height: 21vi;
+}
+.c1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border:0.2vi solid rgb(3, 114, 79);
+    border-radius: 1vi;
+    top: 28vi;
+    left: -43vi;
+    width: 30vi;
+    height: 21vi;
+}
+.c2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border:0.2vi solid rgb(3, 114, 79);
+    border-radius: 1vi;
+    top: 50vi;
+    left: -98vi;
+    width: 30vi;
+    height: 21vi;
+}
+.c3{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border:0.2vi solid rgb(3, 114, 79);
+    border-radius: 1vi;
+    top: 50vi;
+    left: -95vi;
+    width: 30vi;
+    height: 21vi;
+}
+.c4{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border:0.2vi solid rgb(3, 114, 79);
+    border-radius: 1vi;
+    top: 50vi;
+    left: -92vi;
+    width: 30vi;
+    height: 21vi;
+}
+.c5{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border:0.2vi solid rgb(3, 114, 79);
+    border-radius: 1vi;
+    top: 72vi;
+    left: -147vi;
+    width: 30vi;
+    height: 21vi;
 }
