@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(3, 114, 79);
+}
+a{
+    text-decoration: none;
+}
+.menu{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   left: 4vi;
+}
+.titulo{
+    position: relative;
+    font-size: 3vi;
+    top: 5vi;
+}
+.todos{
+    position: relative;
+    font-size: 1.5vi;
+    top: 8vi;
+    left: 2.5vi;
+    color: rgb(3, 114, 79);
+}
+.abrigos{
+    position: relative;
+    font-size: 1.5vi;
+    top: 10vi;
+    left: 2.5vi;
+    color: rgb(3, 114, 79);
+}
+.camisetas{
+    position: relative;
+    font-size: 1.5vi;
+    top: 12vi;
+    left: 2.5vi;
+    color: rgb(3, 114, 79);
+}
+.pantalones{
+    position: relative;
+    font-size: 1.5vi;
+    top: 14vi;
+    left: 2.5vi;
+    color: rgb(3, 114, 79);
+}
+.carritos{
+    position: relative;
+    font-size: 1.5vi;
+    top: 25vi;
+    left: 2.5vi;
+    color: rgb(3, 114, 79);
+}
+.camper{
+    position: relative;
+    font-size: 1.5vi;
+    top: 35vi;
+    left: 2.5vi;
+    color: rgb(3, 114, 79);
+}
+.productos-todos{
+    display: flex;
+    position: relative;
+    border: 0.2vi solid rgb(3, 114, 79);
+    border-radius: 2vi;
+    top: 4vi;
+    left: 10vi;
+    width: 68vi;
+    height: 48vi;
+
+}
